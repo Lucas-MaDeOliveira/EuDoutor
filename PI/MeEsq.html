@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>EuDoutor</title>
+
+    <link rel="shortcut icon" href="img/icons8-médico-80.png" type="image/x-icon">
+    
+
+    <link rel="stylesheet" href="MeEsq.css" type="text/css">
+
+<style>
+    html,body{
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+    }
+
+    .conteiner{
+            display: grid;/*aqui começa as config do grid*/
+            grid-template: 20vh 70vh 10vh/1fr 1fr 1fr;
+            grid-template-areas:
+                                "h h h"
+                                "a m s2"
+                                "a f f";
+            gap: 1vh;
+        }
+        
+        .header{
+            background-color: rgb(0, 166, 255);
+            grid-area: h;
+        }
+        .main{
+            background-color: white;
+            grid-area: m;
+        }
+</style>
+
+</head>
+<body>
+    <div class="conteiner">
+        <header class="header">
+            <img id="img_main" src="img/icons8-médico-80.png" alt="">
+            <h1 id="nome"> EuDoutor</h1>
+            <button id="botao">
+                <h1 id="h1_botao">Página inicial</h1>
+            </button>
+        </header>
+
+        <main class="main">
+            <h1 id="h1">Recuperação de senha <br>Médico</h1>
+            <img src="/PI/img/icons8-médico-80.png" alt="" id="img1">
+            <h2 id="h2">Insira seu e-mail e enviaremos um link para mudança de senha.</h2>
+            <h3 id="h3">Email:</h3>
+            <input id="text" type="text">
+            <img src="/PI/img/icons8-mail-50.png" alt="" id="img2">   
+            <input type="button" value="entrar" id="entrar">   
+            <a id="Login" href="">Login</a>
+            <a id="Cadastre-se" href="">Cadastre-se</a>   
+        </main>
+    </div>
+    
+</body>
+</html>
