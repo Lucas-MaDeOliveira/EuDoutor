@@ -7,7 +7,7 @@
     margin-right: auto;
     display: block;
     margin-top: 5%;
-    max-width: 250px;
+    max-width: 50%;
 }
 
 footer{
@@ -41,4 +41,18 @@ footer{
 
 #s3{
     grid-area: s3;
+}
+
+@media (max-width: 768px)
+{
+    .sections{
+        display: grid;
+        grid-template: 60vh 60vh 60vh/ 1fr 1fr 1fr;
+        grid-template-areas:
+            "s1 s1 s1"
+            "s2 s2 s2"
+            "s3 s3 s3";
+        width: 100%;
+        height: 100%;
+    }
 }
