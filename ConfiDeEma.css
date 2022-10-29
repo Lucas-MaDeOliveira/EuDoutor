@@ -1,0 +1,592 @@
+.header{
+    background-color: rgb(0, 195, 255);
+    height: 77px
+      
+  
+  }
+  #img_main{
+      
+      height: 77px
+      
+  
+  }
+  #nome{
+      display: flex;
+      display: inline;
+      position: absolute; 
+      
+      color: rgb(255, 255, 255);
+  }
+  #botao{
+      display:flex ;
+      display: inline;
+      position: absolute;
+      left: 85%;
+      bottom: 92%;
+      
+      width: 189px; height: 50px
+  }
+  #h1_botao{
+      color: black;
+      font-size: 160%;
+      position: absolute;
+      bottom: 1px;
+      height: 16px;
+      left: 15%;
+      right: 20px;
+  }
+.main{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%
+  }
+  #h1{
+    text-align: center;
+    font-size: 40px;
+  }
+  #img1{
+    position: absolute;
+    top: 31%;
+    left: 43%;
+  }
+  #h2{
+    position: absolute;
+    top: 31%;
+    left: 49%;
+  }
+  #section{
+    border: black;
+    border-style: outset;
+    width: 35%;height: 75px;
+    position: absolute;
+    left: 33%; top: 45%;
+  }
+  #h13{
+    text-align: center;
+    font-size: 19px;
+  }
+  #Login{
+    position: absolute;
+    left: 48%; top: 60%;
+    font-size: 30px;
+  }
+ 
+  
+  @media only screen and (max-width: 950px){ /*enquanto a largura da tela for + q 950 px adc esses elementos*/
+    .header{
+     width: 167%;
+    }
+    .main{
+      width:100%; 
+      height:100%;
+      /* right:30%; */
+      left:35%;
+      border-style: outset;
+      position: absolute;
+      bottom: 90%;
+      top: 20%;
+    }
+    #botao{
+      width: 250px;
+      /* left: 900px;  */
+      top: 10px;
+      left: 130%;
+      position: absolute;
+      bottom: 638px;
+      
+    }
+    
+    #h2{
+      position: absolute; 
+      height: 40px;
+      top: 250px; 
+      left: 83%;
+      font-size: 40px; 
+    }
+    #h1{
+      position: absolute;
+      height: 80%;
+      top: 10px;
+      left: 35%;
+      font-size: 40px;
+    }
+      
+    #img1{
+      position: absolute;
+      left: 670px;
+      top: 255px;
+    }
+
+    #section{
+      left: 670px;
+      top: 480px;
+    }
+
+    #Login{
+      left: 800px;
+      top: 600px;
+    }
+
+    #Cadastre-se{
+      width: 50%;
+      left: 120%;
+      top: 910px;
+
+     
+    }
+
+  }
+  @media screen and ( max-width: 768px)
+  {
+    header{
+      width: 167%;
+     }
+     .main{
+       width:100%; 
+       height:100%;
+       /* right:30%; */
+       left:35%;
+       border-style: outset;
+       position: absolute;
+       bottom: 90%;
+       top: 20%;
+     }
+     #botao{
+       width: 250px;
+       /* left: 900px;  */
+       top: 10px;
+       left: 130%;
+       position: absolute;
+       bottom: 638px;
+       
+     }
+     
+     #h2{
+       position: absolute; 
+       height: 40px;
+       top: 250px; 
+       left: 83%;
+       font-size: 40px; 
+     }
+     #h1{
+       position: absolute;
+       height: 80%;
+       top: 10px;
+       left: 35%;
+       font-size: 40px;
+     }
+       
+     #img1{
+       position: absolute;
+       left: 670px;
+       top: 255px;
+     }
+ 
+     #section{
+       left: 670px;
+       top: 480px;
+     }
+ 
+     #Login{
+       left: 800px;
+       top: 600px;
+     }
+ 
+     #Cadastre-se{
+       width: 50%;
+       left: 120%;
+       top: 910px;
+ 
+      
+     }
+  }
+  @media screen and ( max-width: 650px)
+  {
+  header{
+    width: auto;
+   }
+   .main{
+     width:130%; 
+     height:100%;    
+     left:22%;
+     border-style: outset;
+     position: absolute;
+     bottom: 90%;
+     top: 20%;
+   }
+   #botao{
+     width: 205px;
+     top: 10px;
+     left: 120%;
+     position: absolute;
+     bottom: 638px;
+     
+   }
+   
+   #h2{
+     position: absolute; 
+     height: 40px;
+     top: 260px; 
+     left: 78%;
+     font-size: 40px; 
+   }
+   #h1{
+     position: absolute;
+     height: 80%;
+     top: 10px;
+     left: 25%;
+     font-size: 40px;
+   }
+     
+   #img1{
+     position: absolute;
+     left: 310px;
+     top: 265px;
+   }
+
+  #h13{
+  font-size: 30px;
+  }
+#section {
+     left: 300px;
+     top: 470px;
+    width: 85%;
+    height:20%;
+    }
+
+   #Login{
+     left: 500px;
+     top: 660px;
+   }
+
+   #Cadastre-se{
+     width: 50%;
+     left: 120%;
+     top: 770px;
+    font-size: 28px;
+   }
+   }
+  
+  @media screen and ( max-width: 600px)
+  {
+  header{
+    width: auto;
+   }
+   .main{
+     width:130%; 
+     height:100%;    
+     left:22%;
+     border-style: outset;
+     position: absolute;
+     bottom: 90%;
+     top: 20%;
+   }
+   #botao{
+     width: 205px;
+     top: 10px;
+     left: 120%;
+     position: absolute;
+     bottom: 638px;
+     
+   }
+   
+   #h2{
+     position: absolute; 
+     height: 40px;
+     top: 260px; 
+     left: 78%;
+     font-size: 40px; 
+   }
+   #h1{
+     position: absolute;
+     height: 80%;
+     top: 10px;
+     left: 25%;
+     font-size: 40px;
+   }
+     
+   #img1{
+     position: absolute;
+     left: 310px;
+     top: 265px;
+   }
+
+   #section {
+     left: 230px;
+     top: 470px;
+    width: 85%;
+    height:20%;
+    }
+  #h13{
+  font-size: 30px;
+  }
+
+   #Login{
+     left: 400px;
+     top: 680px;
+   }
+
+   #Cadastre-se{
+     width: 50%;
+     left: 110%;
+     top: 770px;
+    font-size: 28px;
+   }
+   }
+   @media screen and (max-width:500px)
+   {
+     header{
+       width:auto;
+      }
+      .main{
+        width:130%; 
+        height:100%;    
+        left:19%;
+        border-style: outset;
+        position: absolute;
+        bottom: 90%;
+        top: 20%;
+      }
+      #botao{
+        width: 205px;
+        top: 10px;
+        left: 110%;
+        position: absolute;
+        bottom: 638px;
+        
+      }
+      
+      #h2{
+        position: absolute; 
+        height: 40px;
+        top: 260px; 
+        left: 78%;
+        font-size: 40px; 
+      }
+      #h1{
+        position: absolute;
+        height: 80%;
+        top: 10px;
+        left: 17%;
+        font-size: 40px;
+      }
+        
+      #img1{
+        position: absolute;
+        left: 220px;
+        top: 265px;
+      }
+   
+      #section {
+        left: 167px;
+        top: 470px;
+        width: 95%;
+        height:20%;
+       }
+     #h13{
+     font-size: 30px;
+     }
+   
+      #Login{
+        left: 370px;
+        top: 650px;
+      }
+   
+      #Cadastre-se{
+        width: 50%;
+        left: 105%;
+        top: 790px;
+       font-size: 28px;
+      }
+      }
+  
+  
+     @media screen and (max-width:450px)
+     {
+       header{
+         width:auto;
+        }
+        .main{
+          width:130%; 
+          height:100%;    
+          left:19%;
+          border-style: outset;
+          position: absolute;
+          bottom: 90%;
+          top: 20%;
+        }
+        #botao{
+          width: 205px;
+          top: 10px;
+          left: 110%;
+          position: absolute;
+          bottom: 638px;
+          
+        }
+        
+        #h2{
+          position: absolute; 
+          height: 40px;
+          top: 260px; 
+          left: 78%;
+          font-size: 40px; 
+        }
+        #h1{
+          position: absolute;
+          height: 80%;
+          top: 10px;
+          left: 17%;
+          font-size: 40px;
+        }
+          
+        #img1{
+          position: absolute;
+          left: 220px;
+          top: 265px;
+        }
+     
+        #section {
+          left: 160px;
+          top: 470px;
+          width: 90%;
+          height:20%;
+         }
+       #h13{
+       font-size: 30px;
+       }
+     
+        #Login{
+          left: 309px;
+          top: 650px;
+        }
+     
+        #Cadastre-se{
+          width: 50%;
+          left: 105%;
+          top: 790px;
+         font-size: 28px;
+        }
+        }
+        @media screen and (max-width:400px)
+  {
+    header{
+      width:auto;
+     }
+     .main{
+       width:130%; 
+       height:100%;    
+       left:19%;
+       border-style: outset;
+       position: absolute;
+       bottom: 90%;
+       top: 20%;
+     }
+     #botao{
+       width: 205px;
+       top: 10px;
+       left: 110%;
+       position: absolute;
+       bottom: 638px;
+       
+     }
+     
+     #h2{
+       position: absolute; 
+       height: 40px;
+       top: 260px; 
+       left: 78%;
+       font-size: 40px; 
+     }
+     #h1{
+       position: absolute;
+       height: 80%;
+       top: 10px;
+       left: 17%;
+       font-size: 40px;
+     }
+       
+     #img1{
+       position: absolute;
+       left: 220px;
+       top: 265px;
+     }
+  
+     #section {
+       left: 160px;
+       top: 470px;
+       width: 90%;
+       height:20%;
+      }
+    #h13{
+    font-size: 30px;
+    }
+  
+     #Login{
+       left: 300px;
+       top: 700px;
+     }
+  
+     #Cadastre-se{
+       width: 50%;
+       left: 105%;
+       top: 910px;
+      font-size: 28px;
+     }
+     }
+     @media screen and (max-width:300px)
+     {
+       .header {
+         width: 193%;
+         height: 60px;
+        }
+        #img_main{
+         height: 60px;
+        }
+       
+        .main{
+          width:150%; 
+          height:100%;  
+          left: 60px;
+          bottom: 90%;
+          top: 18%;
+          border-style: outset;
+          position: absolute;
+        }
+        
+         #h1_botao{  
+          width: 130px;
+          left: 1px;
+          font-size: 19px;
+             
+        } 
+        #botao{
+         width: 130px;
+         top: 14px;
+          font-size: 10%;
+          bottom: 640px;
+          height: 5%;
+          left: 410px; 
+        }
+      #h1{
+        left: 8%;
+      }
+        
+        #img1{
+          left: 50%;
+        }
+    
+        #section{
+          left: 34%;
+          top: 60%;
+          width: 120%;
+        }
+      #Login{
+        top: 90%;
+        left: 80%;
+      }   
+     }
