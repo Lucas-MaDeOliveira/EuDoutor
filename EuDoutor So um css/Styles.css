@@ -1,0 +1,1267 @@
+.header{
+    background-color: rgb(0, 195, 255);
+    height: 77px
+  }
+#img_main{  
+      height: 77px
+  }
+#nome{
+      display: flex;
+      display: inline;
+      position: absolute; 
+      color: rgb(255, 255, 255);
+}
+#botao{
+      display:flex ;
+      display: inline;
+      position: absolute;
+      left: 85%;
+      bottom: 92%;
+      width: 189px; height: 50px;
+      font-size: 25px;
+      font-weight: bold;/* comando para deixar em negrito*/
+}
+  /*aqui acaba o header */
+
+.main{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    /* right: 20%; */
+    left: 18%;
+    bottom: 90%;
+    top: 12%;
+    width: 60%; 
+    height: 88%;
+}
+#h1_ti{
+    position: absolute;
+    left: 30%;
+    bottom: 88%;
+    text-align: center;
+    font-size: 40px;
+}
+#h2_me{
+    position: absolute;
+    top: 3%;
+    left: 150px;
+    font-size: 210%;
+    font-weight: bold;
+    
+}
+#h2_pa{
+    position: absolute;
+    left: 600px;
+    top: 3%;
+    font-size: 210%;
+    font-weight: bold;
+}
+#bu_me{
+    position: absolute;
+    top: 15%;
+    left: 40px;
+    width: 40%; 
+    height: 70%;
+}
+
+#bu_pa{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    width: 40%; height: 70%;
+}
+#entra1{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 87%;
+    left: 150px;
+    width:100px; height: 38px;
+}
+#entra2{
+     font-weight: bold;
+     font-size: 25px;
+     position: absolute;
+     left: 600px;
+     top: 87%;
+     width:100px; height: 38px;
+}
+#h2{
+    position: absolute;
+    left: 330px;
+    top: 90%;
+    font-size: 22px;
+}
+#h3{
+    position: absolute;
+    left: 300px;
+    top: 90%;
+}
+/*aqui acaba o Escolhas login*/
+
+.main_loginme{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%
+}
+#h1_loginme{
+    text-align: center;
+}
+#img1_loginme{
+    position: absolute;
+    left: 240px;
+    top: 98px;
+}
+#crm{
+    font-weight: bold;
+    position: absolute;
+    left: 190px;
+    top: 155px;
+    font-size: 19px;
+}
+#CRMT{
+     position: absolute;
+     left: 215px;
+     top: 35%;
+     width: 190px; height: 22px;
+     border: black;
+     border-style:outset;
+     
+}
+#caduceu{
+    position: absolute;
+    top: 195px;
+    left: 188px;
+    border: black;
+    border-style:outset;
+}
+#SenhaP_loginme{
+    font-weight: bold;
+    position: absolute;
+    left: 184px;
+    top: 250px;
+    font-size: 19px;
+}
+#Senha_loginme{
+     position: absolute;
+     left: 215px;
+     top: 290px;
+     width: 190px; height: 24px;
+     border: black;
+     border-style:outset;
+}
+#img3_loginme{
+    position: absolute;
+    left: 186px;
+    top: 290px;
+    border: black;
+    border-style:outset;
+    height: 26px
+} 
+#Entrar_loginme{
+    font-weight: bold;
+    position: absolute;
+    left: 230px;
+    top: 350px;
+    font-size: 19px;
+    cursor: pointer; 
+}
+#h2_loginme{
+    position: absolute;
+    left: 190px;
+    top: 430px;
+    font-size: 19px;
+    cursor: pointer; 
+}
+#h3_loginme{
+    position: absolute;
+    left: 140px;
+    top: 500px;
+    font-size: 19px;
+    cursor: pointer; 
+}
+/*aqui acaba o Médico - Login*/
+.main_loginpa{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%
+}
+#h1_loginpa{
+    text-align: center;
+}
+#img1_loginpa{
+    position: absolute;
+    left: 230px;
+    top: 90px;
+}
+#crm_loginpa{
+    font-weight: bold;
+    position: absolute;
+    left: 191px;
+    top: 165px;
+    font-size: 19px;
+}
+#CRMT_loginpa{
+     position: absolute;
+     left: 225px;
+     top: 205px;
+     width: 185px; height: 28px;
+     border: black;
+     border-style:outset;
+     
+}
+#img2_loginpa{
+    position: absolute;
+    top: 205px;
+    left: 193px;
+    border: black;
+    border-style:outset;
+}
+#SenhaP_loginpa{
+    font-weight: bold;
+    position: absolute;
+    left: 191px;
+    top: 230px;
+    font-size: 19px;
+}
+#Senha_loginpa{
+     position: absolute;
+     left: 220px;
+     top: 270px;
+     width: 190px; height: 24px;
+     border: black;
+     border-style:outset;
+}
+#img3_loginpa{
+    position: absolute;
+    left: 191px;
+    top: 270px;
+    border: black;
+    border-style:outset;
+    height: 26px
+}
+#Entrar_loginpa{
+    font-weight: bold;
+    position: absolute;
+    left: 270px;
+    top: 340px;
+    font-size: 19px;
+}
+#h2_loginpa{
+    text-decoration: none;
+    position: absolute;
+    left: 210px;
+    top: 420px;
+    font-size: 19px;
+}
+#h3_loginpa{
+    position: absolute;
+    left: 160px;
+    top: 485px;
+}
+/*aqui acaba Paciente - Login*/
+
+.main_mecadastro{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 13%;
+    width: 40%; height: 80%
+  }
+#h1_mecadastro{
+    text-align: center;
+    font-size: 59px;
+    position: absolute;
+    left: 160px;
+    bottom: 82%;
+}
+#bu1_mecadastro{
+    border-radius: 50%; width: 6%; height: 5%;
+    position: absolute;
+    top: 15%;
+    left: 63%;
+} 
+#bu2_mecadastro{
+    border-radius: 50%; width: 6%; height: 5%;
+    position: absolute;
+    top: 15%;
+    left: 6%;
+}
+#PA_mecadastro{
+    font-weight: bold;
+    font-size: 19px;
+    position: absolute;
+    left: 15%;
+    top: 10%;  
+    font-size: 29px;
+}
+#ME_mecadastro{
+    font-weight: bold;
+    font-size: 19px;
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    font-size: 29px;
+}
+#nomeCA_mecadastro{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 65%;
+    top: 22%;
+    font-size: 20px;
+}
+#nomet_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 29%;
+    height: 3%;
+}
+#cmr1_mecadastro{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 65%;
+    top: 200px;
+    font-size: 20px;
+}
+#crmte_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 240px;
+    height: 3%;
+}
+#email_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 260px;
+    height: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#emailt_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 300px;
+    height: 3%;
+}
+#data_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 313px;
+    height: 3%;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#datat_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 355px;
+    width: 170px; height: 20px;
+}
+#cell_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 360px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#cellt_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 400px;
+    width: 170px; height: 3%;
+}
+#senhap_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 410px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#senhat_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 450px;
+    width: 170px; height: 3%;
+}
+#confisep_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 465px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#confiset_mecadastro{
+    position: absolute;
+    left: 65%;
+    top: 505px;
+    width: 170px; height: 3%;
+}
+#criar_mecadastro{
+    position: absolute;
+    left: 35%;
+    top: 555px;
+    width: 170px; height: 6%;
+    font-size: 25px;
+}
+/*aqui acaba o Médico - Cadastro*/
+
+.main_pacadastro{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 13%;
+    width: 40%; height: 80%
+}
+#h1_pacadastro{
+    text-align: center;
+    font-size: 59px;
+    position: absolute;
+    left: 160px;
+    bottom: 82%;
+}
+#bu1_pacadastro{
+    border-radius: 50%; width: 6%; height: 5%;
+    position: absolute;
+    top: 15%;
+    left: 63%;
+} 
+#bu2_pacadastro{
+    border-radius: 50%; width: 6%; height: 5%;
+    position: absolute;
+    top: 15%;
+    left: 6%;
+}
+#PA_pacadastro{
+    font-weight: bold;
+    font-size: 19px;
+    position: absolute;
+    left: 15%;
+    top: 10%;  
+    font-size: 29px;
+}
+#ME_pacadastro{
+    font-weight: bold;
+    font-size: 19px;
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    font-size: 29px;
+}
+#nomeCA_pacadastro{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 5%;
+    top: 22%;
+    font-size: 20px;
+}
+#nomet_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 29%;
+    height: 3%;
+}
+#cmr1_pacadastro{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 5%;
+    top: 200px;
+    font-size: 20px;
+}
+#crmte_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 240px;
+    height: 3%;
+}
+#email_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 260px;
+    height: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#emailt_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 300px;
+    height: 3%;
+}
+#data_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 313px;
+    height: 3%;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#datat_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 355px;
+    width: 170px; height: 20px;
+}
+#cell_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 360px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#cellt_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 400px;
+    width: 170px; height: 3%;
+}
+#senhap_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 410px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#senhat_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 450px;
+    width: 170px; height: 3%;
+}
+#confisep_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 465px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#confiset_pacadastro{
+    position: absolute;
+    left: 5%;
+    top: 505px;
+    width: 170px; height: 3%;
+}
+#criar_pacadastro{
+    position: absolute;
+    left: 35%;
+    top: 555px;
+    width: 170px; height: 6%;
+    font-size: 25px;
+}
+/*aqui acaba o Paciente - Cadastro*/
+.main_MEconfi{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%;
+    }
+#h1_MEconfi{
+    text-align: center;
+    font-size: 30px;    
+}
+#img1_MEconfi{
+    position: absolute;
+    left: 45%;
+    top: 85px;
+}
+#section_MEconfi{
+    border: black;
+    border-style: outset;
+    width: 50%; height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 26%;
+}
+#h12_MEconfi{
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+}
+#butao_MEconfi{
+    position: absolute;
+    top: 88%;
+    left: 40%;
+    width: 20%; height: 40px;
+}
+/*Médico - Confirmação de cadastro*/
+
+.main_PAConfi{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%;
+    }
+#h1_PAConfi{
+    text-align: center;
+    font-size: 30px;    
+}
+#img1_PAConfi{
+    position: absolute;
+    left: 43%;
+}
+#section_PAConfi{
+    border: black;
+    border-style: outset;
+    width: 50%; height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 26%;
+}
+#h12_PAConfi{
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+}
+#butao_PAConfi{
+    position: absolute;
+    top: 92%;
+    left: 40%;
+    width: 20%; height: 40px;
+}
+/*aqui acaba o Paciente - Confirmação de cadastro*/
+
+.main_ConfiDeEma{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%
+  }
+  #h1_ConfiDeEma{
+    text-align: center;
+    font-size: 40px;
+  }
+  #img1_ConfiDeEma{
+    position: absolute;
+    top: 31%;
+    left: 43%;
+  }
+  #h2_ConfiDeEma{
+    position: absolute;
+    top: 31%;
+    left: 49%;
+  }
+  #section_ConfiDeEma{
+    border: black;
+    border-style: outset;
+    width: 35%;height: 75px;
+    position: absolute;
+    left: 33%; top: 45%;
+  }
+  #h13_ConfiDeEma{
+    text-align: center;
+    font-size: 19px;
+  }
+  #Login_ConfiDeEma{
+    position: absolute;
+    left: 48%; top: 60%;
+    font-size: 30px;
+  }
+  /*aqui acaba o Médico - Esqueceu a senha*/
+  .main_MeEsq{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%
+  }
+  #h1_MeEsq{
+    text-align: center;
+  }
+  #img1_MeEsq{
+    position: absolute;
+    left: 45%;
+  }
+  #h2_MeEsq{
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 42px;
+  }
+  #h3_MeEsq{
+    position: absolute;
+    top: 50%;
+    left: 200px;
+  }
+  #text_MeEsq{
+    position: absolute;
+    top: 58%;
+    left: 200px;
+    width: 200px; height: 28px;
+    border: black;
+    border-style: outset;
+  }
+  #img2_MeEsq{
+    position: absolute;
+    top: 58%;
+    left: 200px;
+    width: 30px;
+    border: black;
+    border-style: outset;
+  }
+  #entrar_MeEsq{
+    position: absolute;
+    top: 67%;
+    left: 36%;
+    width: 140px; height: 50px;
+  }
+  #Login_MeEsq{
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    font-size: 25px;
+  }
+  #Cadastre-se_MeEsq{
+    position: absolute;
+    top: 93%;
+    left: 440px;
+    font-size: 25px;
+  }
+  /*aqui acabou o Médico - Esqueceu a senha*/
+  .main_PaEsq{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%
+  }
+  #h1_PaEsq{
+    text-align: center;
+  }
+  #img1_PaEsq{
+    position: absolute;
+    left: 40%;
+  }
+  #h2_PaEsq{
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 15px;
+  }
+  #h3_PaEsq{
+    position: absolute;
+    top: 50%;
+    left: 200px;
+  }
+  #text_PaEsq{
+    position: absolute;
+    top: 58%;
+    left: 200px;
+    width: 200px; height: 28px;
+    border: black;
+    border-style: outset;
+  }
+  #img2_PaEsq{
+    position: absolute;
+    top: 58%;
+    left: 200px;
+    width: 30px;
+    border: black;
+    border-style: outset;
+  }
+  #entrar_PaEsq{
+    position: absolute;
+    top: 70%;
+    left: 36%;
+    width: 24%; height: 8%;
+  }
+  #Login_PaEsq{
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    font-size: 25px;
+  }
+  #Cadastre-se_PaEsq{
+    position: absolute;
+    top: 93%;
+    left: 440px;
+    font-size: 25px;
+  }
+
+  .main_MeReset{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%
+  }
+  #h1_MeReset{
+    text-align: center;
+  }
+  #img1_MeReset{
+    position: absolute;
+    left: 43%;
+    top: 90px;
+  }
+  #crm_MeReset{
+    font-weight: bold;
+    position: absolute;
+    left: 191px;
+    top: 165px;
+    font-size: 19px;
+  }
+  #CRMT_MeReset{
+     position: absolute;
+     left: 220px;
+     top: 205px;
+     width: 190px; height: 22px;
+     border: black;
+     border-style:outset;
+     
+  }
+  #img2_MeReset{
+    position: absolute;
+    top: 205px;
+    left: 193px;
+    border: black;
+    border-style:outset;
+  }
+  #SenhaP_MeReset{
+    font-weight: bold;
+    position: absolute;
+    left: 191px;
+    top: 230px;
+    font-size: 19px;
+  }
+  #Senha_MeReset{
+     position: absolute;
+     left: 220px;
+     top: 270px;
+     width: 190px; height: 24px;
+     border: black;
+     border-style:outset;
+  }
+  #img3_MeReset{
+    position: absolute;
+    left: 191px;
+    top: 270px;
+    border: black;
+    border-style:outset;
+    height: 26px
+  }
+  #Entrar_MeReset{
+    font-weight: bold;
+    position: absolute;
+    left: 260px;
+    top: 310px;
+    font-size: 19px;
+  }
+  #h2_MeReset{
+    position: absolute;
+    left: 65%;
+    top: 90%;
+    font-size: 19px;
+    text-decoration: none;
+  }
+  .main_PaReset{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%;
+  }
+  #h1_PaReset{
+    text-align: center;
+  }
+  #img1_PaReset{
+    position: absolute;
+    left: 240px;
+    top: 90px;
+  }
+  #crm_PaReset{
+    font-weight: bold;
+    position: absolute;
+    left: 191px;
+    top: 165px;
+    font-size: 19px;
+  }
+  #CRMT_PaReset{
+     position: absolute;
+     left: 220px;
+     top: 205px;
+     width: 190px; height: 22px;
+     border: black;
+     border-style:outset;
+     
+  }
+  #img2_PaReset{
+    position: absolute;
+    top: 205px;
+    left: 193px;
+    border: rgb(0, 0, 0);
+    border-style:outset;
+    width: 24px;
+    
+  }
+  #SenhaP_PaReset{
+    font-weight: bold;
+    position: absolute;
+    left: 191px;
+    top: 230px;
+    font-size: 19px;
+  }
+  #Senha_PaReset{
+     position: absolute;
+     left: 220px;
+     top: 270px;
+     width:190px; height: 24px;
+     border: black;
+     border-style:outset;
+  }
+  #img3_PaReset{
+    position: absolute;
+    left: 191px;
+    top: 270px;
+    border: black;
+    border-style:outset;
+    height: 26px
+  }
+  #Entrar_PaReset{
+    font-weight: bold;
+    position: absolute;
+    left: 260px;
+    top: 310px;
+    font-size: 19px;
+  }
+  #h2_PaReset{
+    color: rgb(0, 60, 255);
+    position: absolute;
+    left: 200px;
+    top: 330px;
+    font-size: 19px;
+  }
+  #h3_PaReset{
+    color: rgb(40, 100, 240);
+    position: absolute;
+    left: 465px;
+    top: 485px;
+    font-size: 19px;
+  }
+  /*aqui acaba o Paciente - Reset*/
+ 
+  #At12{
+      width: 20%;
+      height: 75px;
+      font-size: 30px;
+      font-weight: bold;
+      position: absolute;
+      left: 300px;
+      top: 20%; 
+  }
+  #Fa12{
+      width: 20%;
+      height: 75px;
+      font-size: 20px;
+      font-weight: bold;
+      position: absolute;
+      left: 300px;
+      top: 31%;
+  }
+  #Ua12{
+      width: 20%;
+      height: 75px;
+      font-size: 20px;
+      font-weight: bold;
+      position: absolute;
+      left: 300px;;
+      top: 42%;
+  }
+  #Re12{
+      width: 20%;
+      height: 75px;
+      font-size: 29px;
+      font-weight: bold;
+      position: absolute;
+      left: 300px;
+      top: 53%;
+  }
+  #Ho12{
+      width: 20%;
+      height: 75px;
+      font-size: 40px;
+      font-weight: bold;
+      position: absolute;
+      left: 300px;
+      top: 64%;
+  }
+  /*aqui acaba o atentimento*/
+  #Fa{
+    width: 20%;
+    height: 75px;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 99px;
+    top: 2%; 
+}
+#Ge{
+    width: 20%;
+    height: 75px;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 99px;
+    top: 22%;
+}
+#An{
+    width: 20%;
+    height: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 99px;
+    top: 42%;
+}
+#Re{
+    width: 20%;
+    height: 75px;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 99px;
+    top: 62%;
+}
+/*aqui acaba a farmacia */
+.nav
+{
+    background-color: #C7E7FF;
+}
+
+.navbar-expand-lg
+{
+    background-color: #C7E7FF;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.div_center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 250px;
+}
+/*aqui acaba o convenio*/
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+.navbar
+{
+    background-color: #C7E7FF;
+}
+
+.navbar-expand-lg
+{
+    background-color: #C7E7FF;
+}
+
+.txt_center{
+    text-align: center;
+    grid-area: txt;
+}
+
+#txt_center1{
+    text-align: center;
+}
+
+#txt_center2{
+    text-align: center;
+}
+
+#txt_center3{
+    text-align: center;
+}
+
+.div_center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 250px;
+}
+
+.div_center1
+{
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    width: 250px;
+}
+
+.carousel{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 300px;
+    max-height: 900px;
+}
+/*aqui acaba o home*/
+.navbar
+{
+    background-color: #C7E7FF;
+}
+
+.navbar-expand-lg
+{
+    background-color: #C7E7FF;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.div_center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 50%;
+}
+/*aqui acaba a oftalmologia*/
+
+.navbar
+{
+    background-color: #C7E7FF;
+}
+
+.navbar-expand-lg
+{
+    background-color: #C7E7FF;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.div_center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 50%;
+}
+/*aqui acaba a ortopedia */
+.navbar
+{
+    background-color: #C7E7FF;
+}
+
+.navbar-expand-lg
+{
+    background-color: #C7E7FF;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.div_center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 50%;
+}
+/*aqui acaba a pediatria*/
+.footer{
+    position: absolute;
+    bottom: 0px;
+    height: 81px;
+    width: 100%;
+    
+}
+#Facebook{
+    position: absolute;
+    right: 99px;
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+}
+#Instagram{
+    position: absolute;
+    right: 99px;
+    top: 28px;
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+}
+#Twitter{
+    position: absolute;
+    right: 99px;
+    top: 51px;
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+}
+#Telefone{
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    font-size: 15px;
+    text-decoration:none;/*comando para tira a linha que fica embaixo do a*/
+}
