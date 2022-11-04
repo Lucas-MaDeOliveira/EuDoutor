@@ -7,97 +7,208 @@ html
     background-color: #C7E7FF;
 }
 
-.navbar-expand-lg
+.navbar .navbar-expand-lg
 {
     background-color: #C7E7FF;
 }
-.section{
-    position: absolute;
-    left: 10%;
-    bottom: 15%;
-    width: 80%;
-    height: 60%;
+
+.section {
+  display: grid;
+  grid-template: 15vh 15vh 15vh 15vh 15vh / 1fr 3fr 3fr;
+  grid-template-areas:
+    "btn1 cnt cnt"
+    "btn2 cnt cnt"
+    "btn3 cnt cnt"
+    "btn4 cnt cnt"
+    "btn5 cnt cnt";
+  width: 100%;
+  margin: 10%;
+  /* gap: 1%; */
 }
-#At{
-    width: 20%;
-    height: 75px;
-    font-size: 30px;
-    font-weight: bold;
-    position: absolute;
-    left: 99px;
-    top: 2%; 
+
+#btn1{
+  grid-area: btn1;
+  height: 60%;
 }
-#Fa{
-    width: 20%;
-    height: 75px;
-    font-size: 20px;
-    font-weight: bold;
-    position: absolute;
-    left: 99px;
-    top: 22%;
+
+#btn2{
+  grid-area: btn2;
+  height: 60%;
 }
-#Ua{
-    width: 20%;
-    height: 75px;
-    font-size: 20px;
-    font-weight: bold;
-    position: absolute;
-    left: 99px;
-    top: 42%;
+
+#btn3{
+  grid-area: btn3;
+  height: 60%;
 }
-#Re{
-    width: 20%;
-    height: 75px;
-    font-size: 29px;
-    font-weight: bold;
-    position: absolute;
-    left: 99px;
-    top: 62%;
+
+#btn4{
+  grid-area: btn4;
+  height: 60%;
 }
-#Ho{
-    width: 20%;
-    height: 75px;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    left: 99px;
-    top: 82%;
+
+#btn5{
+  grid-area: btn5;
+  height: 60%;
 }
+.cnt{
+  grid-area: cnt;
+}
+
 .footer{
-    position: absolute;
-    bottom: 0px;
-    height: 81px;
-    width: 100%;
-    
+  bottom: 0px;
+  top: 120%;
+  width: 100%;
 }
-#Facebook{
-    position: absolute;
-    right: 99px;
-    color:white;
-    font-size: 20px;
-    text-decoration:none;
+.Facebook, .icone{
+  left: 73%;
+  text-decoration:none;
+  position: absolute;
 }
-#Instagram{
-    position: absolute;
-    right: 99px;
-    top: 28px;
-    color:white;
-    font-size: 20px;
-    text-decoration:none;
+.Instagram{
+  left: 80%;
+  text-decoration: none;
+  position: absolute;
 }
-#Twitter{
-    position: absolute;
-    right: 99px;
-    top: 51px;
-    color:white;
-    font-size: 20px;
-    text-decoration:none;
+.Twitter{
+  left: 88%;
+  text-decoration: none;
+  position: absolute; 
 }
-#Telefone{
-    color: white;
-    position: absolute;
-    left: 100px;
-    top: 25px;
-    font-size: 15px;
-    text-decoration:none;/*comando para tira a linha que fica embaixo do a*/
+.Telefone{
+  left: 2%;
+  position: absolute;
+  text-decoration: none;
 }
+
+@media only screen and (max-width:950px) {
+  .navbar /*header*/
+  {
+      background-color: #C7E7FF;
+    width: 96%;
+  }
+  #btn1{
+    left: 70%;
+    position: relative;
+  }
+  #btn2{
+    left: 70%;
+    position: relative;
+  }
+  #btn3{
+  left: 70%;
+    position: relative;
+  }  
+  #btn4{
+    left: 70%;
+    position: relative;
+  }
+  #btn5{
+    left: 70%;
+    position: relative;
+  }
+  .Facebook{
+    top: 105%;
+    left: 80.2%;
+  }
+  .Instagram{
+    top: 109.3%;
+    left: 80%;
+  }
+
+  .Twitter{
+    top: 113%;
+    left: 82.3%;
+  }
+.Telefone{
+  top: 110%;
+}
+  }
+  @media only screen and (max-width:600px) {
+    .navbar /*header*/
+    {
+        background-color: #C7E7FF;
+      width: 98%;
+    }
+    #btn1{
+      left: 60%;
+      position: relative;
+    }
+    #btn2{
+      left: 60%;
+      position: relative;
+    }
+    #btn3{
+    left: 60%;
+      position: relative;
+    }  
+    #btn4{
+      left: 60%;
+      position: relative;
+    }
+    #btn5{
+      left: 60%;
+      position: relative;
+    }
+    .Facebook{
+      top: 102%;
+      left: 75.5%;
+    }
+    .Instagram{
+      top: 106%;
+      left: 75%;
+    }
+    .Twitter{
+      top: 110%;
+      left: 79%;
+    }
+  .Telefone{
+    top: 107%;
+  }
+  
+    }
+
+@media only screen and (max-width:400px) {
+  .navbar /*header*/
+  {
+      background-color: #C7E7FF;
+    width: 102%;
+  }
+  #btn1{
+    left: 40%;
+    position: relative;
+  }
+  #btn2{
+    left: 40%;
+    position: relative;
+  }
+  #btn3{
+  left: 40%;
+    position: relative;
+  }  
+  #btn4{
+    left: 40%;
+    position: relative;
+  }
+  #btn5{
+    left: 40%;
+    position: relative;
+  }
+  .Facebook{
+    top: 102%;
+    left: 71%;
+  }
+  .Instagram{
+    top: 106%;
+    left: 70%;
+  }
+
+  .Twitter{
+    top: 110%;
+    left: 76%;
+  }
+.Telefone{
+  top: 107%;
+}
+
+  
+  }

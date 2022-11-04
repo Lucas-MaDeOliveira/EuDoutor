@@ -69,7 +69,6 @@ footer{
     font-weight: bold;
     color: white;
 }
-
 .socialphone{
     text-decoration: none;
     cursor: pointer;
@@ -147,4 +146,190 @@ ul {
 
 #s3 {
     grid-area: s3;
+}
+
+@media only screen and (max-width:950px) {
+    .navbar /*header*/
+    {
+        background-color: #C7E7FF;
+      width: 100%;
+    }
+
+    .feed {
+        display: grid;
+        grid-template: 20vh 20vh 20vh / 1.5fr 5fr 5fr;
+        grid-template-areas:
+            "pac1 feed1 feed1"
+            "pac2 feed2 feed2"
+            "pac3 feed3 feed3";
+        width: 100%;
+        height: 100%;
+        margin: 10%;
+    }
+    
+    .feed1 {
+        grid-area: feed1;
+    }
+    
+    .feed2 {
+        grid-area: feed2;
+    }
+    
+    .feed3 {
+        grid-area: feed3
+    }
+    .footer{
+        background-color: rgb(105, 105, 105);
+        grid-area: f;
+        top: 112%;
+    }
+    #Fa{
+      left: 20%;
+      top: 20%;
+      width: 60%;
+      position:relative;
+      
+    }
+    #Ge{
+      left: 20%;
+      top: 35%;
+      width: 60%;
+      display: block;
+      position: relative;
+    }
+    .feed1{
+      left: 0%;
+      /* width: 60%;
+      display: block;*/
+      position: relative; 
+    }
+
+}
+    @media only screen and (max-width:600px) {
+        .navbar /*header*/
+        {
+            background-color: #C7E7FF;
+          width: 109%;
+        }
+    
+        .feed {
+    display: grid;
+    grid-template: 20vh 20vh 20vh / 1fr 1fr 1fr;
+    grid-template-areas:
+        "pac1 feed1 "
+        "pac2 feed2 "
+        "pac3 feed3 ";
+    width: 100%;
+    height: 100%;
+    margin: 10%;
+}
+.carousel-inner{
+  position: absolute;
+  left: 25%;
+}
+
+#txt_center1{
+  position: absolute;
+  top: 98%; 
+  left: 50%;
+}
+#txt_center2{
+  position: absolute;
+  top: 211%; 
+  left: 45%;
+}
+#txt_center3{
+  position: absolute;
+  top: 298%; 
+  left: 30%;
+  width: 60%;
+}
+.sections{
+  position: relative;
+  display: inline;
+  left: 13%;
+}
+.feed1 {
+    grid-area: feed1;
+    height: 80%;
+    left: 2%;
+}
+
+.feed2 {
+    grid-area: feed2;
+}
+
+.feed3 {
+    grid-area: feed3
+}   
+  .footer{
+    width: 109%;
+  }
+}
+
+  
+  @media only screen and (max-width:400px) {
+    .navbar /*header*/
+        {
+            background-color: #C7E7FF;
+          width: 116%;
+        }
+    
+        .feed {
+    display: grid;
+    grid-template: 20vh 20vh 20vh / 1fr 1fr 1fr;
+    grid-template-areas:
+        "pac1 feed1 feed1"
+        "pac2 feed2 feed2"
+        "pac3 feed3 feed3";
+    width: 100%;
+    height: 100%;
+    margin: 10%;
+}
+.carousel-inner{
+  position: absolute;
+  /* top: 98%;  */
+  left: 10%;
+}
+
+#txt_center1{
+  position: absolute;
+  top: 91.5%; 
+  left: 45%;
+  font-size: 140%;
+}
+#txt_center2{
+  position: absolute;
+  top: 200%; 
+  left: 40%;
+  font-size: 140%;
+}
+#txt_center3{
+  position: absolute;
+  top: 282%; 
+  left: 28%;
+  width: 60%;
+  font-size: 140%;
+}
+.sections{
+  position: relative;
+  display: inline;
+  left: 8%;
+}
+.feed1 {
+    grid-area: feed1;
+    
+}
+
+.feed2 {
+    grid-area: feed2;
+}
+
+.feed3 {
+    grid-area: feed3
+}   
+  .footer{
+    width: 120%;
+  }
+  
 }
