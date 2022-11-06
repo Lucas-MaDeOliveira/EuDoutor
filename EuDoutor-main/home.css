@@ -1,0 +1,386 @@
+  html
+{
+    scroll-behavior: smooth;
+}
+
+
+.navbar
+{
+    background-color: #C7E7FF;
+}
+
+.navbar-expand-lg
+{
+    background-color: #C7E7FF;
+}
+
+.txt_center{
+    text-align: center;
+    grid-area: txt;
+}
+
+#txt_center1{
+    text-align: center;
+}
+
+#txt_center2{
+    text-align: center;
+}
+
+#txt_center3{
+    text-align: center;
+}
+
+.div_center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 250px;
+}
+
+.div_center1
+{
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    width: 250px;
+}
+
+.carousel{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 300px;
+    max-height: 900px;
+}
+
+footer{
+    background-color: grey;
+}
+
+.socialmedia{
+   text-decoration: none;
+    margin-right: 10%;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+.socialphone{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.4s;
+    
+}
+
+.sections{
+    display: grid;
+    grid-template: 25vh/ 1fr 1fr 1fr;
+    grid-template-areas:
+        "s1 s2 s3";
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+.feed {
+    display: grid;
+    grid-template: 20vh 20vh 20vh / 1fr 1fr 1fr;
+    grid-template-areas:
+        "pac1 feed1 feed1"
+        "pac2 feed2 feed2"
+        "pac3 feed3 feed3";
+    width: 100%;
+    height: 100%;
+    margin: 10%;
+}
+
+.feed1 {
+    grid-area: feed1;
+}
+
+.feed2 {
+    grid-area: feed2;
+}
+
+.feed3 {
+    grid-area: feed3
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.pac1 {
+    width: 100px;
+    height: 100px;
+    grid-area: pac1;
+}
+
+.pac2 {
+    width: 100px;
+    height: 100px;
+    grid-area: pac2;
+}
+
+.pac3 {
+    width: 100px;
+    height: 100px;
+    grid-area: pac3;
+}
+
+#s1 {
+    grid-area: s1;
+}
+
+#s2 {
+    grid-area: s2;
+}
+
+#s3 {
+    grid-area: s3;
+}
+.footer{
+    position: absolute;
+    top: 285%;
+    height: 81px;
+    width: 100%;
+   }
+   #Face{
+    width: 1.3%;
+    position: absolute;
+    right: 12.4%;
+    bottom: 70%;
+  }
+  #Insta{
+    width: 1.3%;
+    right: 12.4%;
+    top: 35%;
+    position: absolute;
+  }
+  #tt{
+    right: 12.4%;
+    top: 64%;
+    position: absolute;
+  }
+  #Facebook{
+    top: 0;
+    color: white;
+    left: 90%;
+    text-decoration:none;
+    position: absolute;
+  }
+  #Instagram{
+    color: white;
+    top: 30%;
+    left: 90%;
+    text-decoration: none;
+    position: absolute;
+  }
+  #Twitter{
+    color: white;
+    left: 90%;
+    top: 60%;
+    text-decoration: none;
+    position: absolute; 
+  }
+  #Telefone{
+    color: white;
+    top: 30%;
+    left: 5%;
+    position: absolute;
+    text-decoration: none;
+  }
+
+@media only screen and (max-width:950px) {
+    .navbar /*header*/
+    {
+        background-color: #C7E7FF;
+      width: 100%;
+    }
+
+    .feed {
+        display: grid;
+        grid-template: 20vh 20vh 20vh / 1.5fr 5fr 5fr;
+        grid-template-areas:
+            "pac1 feed1 feed1"
+            "pac2 feed2 feed2"
+            "pac3 feed3 feed3";
+        width: 100%;
+        height: 100%;
+        margin: 10%;
+    }
+    
+    .feed1 {
+        grid-area: feed1;
+    }
+    
+    .feed2 {
+        grid-area: feed2;
+    }
+    
+    .feed3 {
+        grid-area: feed3
+    }
+    .footer{
+        background-color: rgb(105, 105, 105);
+        grid-area: f;
+        top: 112%;
+    }
+    #Fa{
+      left: 20%;
+      top: 20%;
+      width: 60%;
+      position:relative;
+      
+    }
+    #Ge{
+      left: 20%;
+      top: 35%;
+      width: 60%;
+      display: block;
+      position: relative;
+    }
+    .feed1{
+      left: 0%;
+      /* width: 60%;
+      display: block;*/
+      position: relative; 
+    }
+
+}
+    @media only screen and (max-width:600px) {
+        .navbar /*header*/
+        {
+            background-color: #C7E7FF;
+          width: 109%;
+        }
+    
+        .feed {
+    display: grid;
+    grid-template: 20vh 20vh 20vh / 1fr 1fr 1fr;
+    grid-template-areas:
+        "pac1 feed1 "
+        "pac2 feed2 "
+        "pac3 feed3 ";
+    width: 100%;
+    height: 100%;
+    margin: 10%;
+}
+.carousel-inner{
+  position: absolute;
+  left: 25%;
+}
+
+#txt_center1{
+  position: absolute;
+  top: 98%; 
+  left: 50%;
+}
+#txt_center2{
+  position: absolute;
+  top: 211%; 
+  left: 45%;
+}
+#txt_center3{
+  position: absolute;
+  top: 298%; 
+  left: 30%;
+  width: 60%;
+}
+.sections{
+  position: relative;
+  display: inline;
+  left: 13%;
+}
+.feed1 {
+    grid-area: feed1;
+    height: 80%;
+    left: 2%;
+}
+
+.feed2 {
+    grid-area: feed2;
+}
+
+.feed3 {
+    grid-area: feed3
+}   
+  .footer{
+    width: 109%;
+  }
+}
+
+  
+  @media only screen and (max-width:400px) {
+    .navbar /*header*/
+        {
+            background-color: #C7E7FF;
+          width: 116%;
+        }
+    
+        .feed {
+    display: grid;
+    grid-template: 20vh 20vh 20vh / 1fr 1fr 1fr;
+    grid-template-areas:
+        "pac1 feed1 feed1"
+        "pac2 feed2 feed2"
+        "pac3 feed3 feed3";
+    width: 100%;
+    height: 100%;
+    margin: 10%;
+}
+.carousel-inner{
+  position: absolute;
+  /* top: 98%;  */
+  left: 10%;
+}
+
+#txt_center1{
+  position: absolute;
+  top: 91.5%; 
+  left: 45%;
+  font-size: 140%;
+}
+#txt_center2{
+  position: absolute;
+  top: 200%; 
+  left: 40%;
+  font-size: 140%;
+}
+#txt_center3{
+  position: absolute;
+  top: 282%; 
+  left: 28%;
+  width: 60%;
+  font-size: 140%;
+}
+.sections{
+  position: relative;
+  display: inline;
+  left: 8%;
+}
+.feed1 {
+    grid-area: feed1;
+    
+}
+
+.feed2 {
+    grid-area: feed2;
+}
+
+.feed3 {
+    grid-area: feed3
+}   
+  .footer{
+    width: 120%;
+  }
+  
+}
