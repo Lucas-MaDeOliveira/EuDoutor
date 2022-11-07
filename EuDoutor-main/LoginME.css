@@ -29,7 +29,8 @@
     left: 30%;
     bottom: 90%;
     top: 20%;
-    width: 40%; height: 70%
+    width: 40%; 
+    height: 70%
   }
   #h1{
     text-align: center;
@@ -44,13 +45,14 @@
     position: absolute;
     left: 30%;
     top: 27%;
-    font-size: 19px;
+    font-size: 130%;
   }
   #CRMT{
      position: absolute;
      left: 35%;
      top: 35%;
-     width: 35%; height: 4.2%;
+     width: 35%; 
+     height: 4.2%;
      border: black;
      border-style:outset;
      
@@ -67,13 +69,14 @@
     position: absolute;
     left: 30%;
     top: 40%;
-    font-size: 19px;
+    font-size: 130%;
   }
   #Senha{
      position: absolute;
      left: 30%;
      top: 48%;
-     width: 40%; height: 4.2%;
+     width: 40%; 
+     height: 4.2%;
      border: black;
      border-style:outset;
   }
@@ -83,7 +86,8 @@
     top: 48%;
     border: black;
     border-style:outset;
-    height: 26px;height: 4.5%;
+    height: 26%;
+    height: 4.5%;
     
   }
   #Entrar{
@@ -91,7 +95,8 @@
     position: absolute;
     left: 35%;
     top: 60%;
-    width: 30%; height: 10%;
+    width: 30%; 
+    height: 10%;
     font-size: 250%;
     cursor: pointer; 
   }
@@ -101,14 +106,17 @@
     top:75%;
     font-size: 125%;
     cursor: pointer; 
+    text-decoration: none;
   }
   #h3{
-    /* color: rgb(40, 100, 240); */
     position: absolute;
     left: 27%;
     top:80%;
     font-size: 120%;
     cursor: pointer; 
+  }
+  #a{
+    text-decoration: none;
   }
   @media only screen and (max-width: 950px){ /*enquanto a largura da tela for + q 950 px adc esses elementos*/
     .header{
@@ -117,79 +125,78 @@
     .main{
       width:70%; 
       height:73%;
-      /* right:30%; */
       left:14%;
       border-style: outset;
       position: absolute;
       bottom: 90%;
       top: 13%;
     }
-     #h1_botao{  
+     /* #h1_botao{  
       height: 10px;
       left: 10%;
       top: 3px;
-      font-size: 18px;
+      font-size: 10%;
      position: absolute; 
-    } 
+    }  */
   
     #botao{
-      left: 750px; 
-      top: 10px;
-      font-size: 10%;
+      left: 80%; 
+      top: 2%;
+      font-size: 100%;
       position: absolute;
-      bottom: 638px;
-      
     }
  
     #h1{
       position:absolute; 
-       height: 48px;
-       left: 43%;
-       font-size: 30px;
+      height: 10%;
+      left: 43%;
+     
+      font-size: 200%;
     }
     #img1{
       height: 48px;
        left: 46%;
+       top: 18%;
     }
-    
     #Senha{
       position: absolute; 
-      left: 35%;
-      font-size: 32px;
+      left: 34.9%;
+      width: 35%;
+      top: 56.5%;
     }
       
     #crm{
       position: absolute; 
       left: 31%; 
-      top: 172px;
+      top: 33%;
     }
     #CRMT{
       position: absolute; 
       left: 35%; 
-      top: 220px;
+      top: 42.9%;
     }
     #img2{
       left: 31%; 
-      top: 220px;
+      top: 42.9%;
     }
     #img3{
-      left: 205px; 
-      top: 290px;
+      left: 31%; 
+      top: 56.5%;
     }
     #SenhaP{
-      left: 205px; 
-      top: 245px; 
+      left: 31%; 
+      top: 48%; 
     }
     #h2{
       left: 35%;
-      top: 67%;
+      top: 80%;
       position: absolute;   
-      font-size: 18px;
+      font-size: 150%;
       text-decoration: none;
     }
     #h3{
-      left: 180px;
-      top: 75%;
+      left: 29%;
+      top: 85%;
       position: absolute;  
       text-decoration: none;  
       cursor: pointer; 
@@ -199,290 +206,193 @@
      
     }
     #Entrar{
-      left: 285px;
-      top: 58%;
+      left: 40%;
+      width: 20%;
+      top: 65%;
+      font-size: 150%;
     }
   }
 
   @media screen and ( max-width: 768px)
   {
   .header{
-     width: 123%;
-    }
-    .main{
-      width:85%; 
-      height:73%;
-      /* right:30%; */
-      left:18%;
-      border-style: outset;
-      position: absolute;
-      bottom: 90%;
-      top: 17%;
-    }
-     #h1_botao{  
-      height: 10px;
-      left: 10%;
-      top: 3px;
-      font-size: 18px;
-     position: absolute; 
-    } 
-  
-    #botao{
-      left: 730px; 
-      top: 10px;
-      font-size: 10%;
-      position: absolute;
-      bottom: 638px;
-      
-    }
+    width: auto;
+   }
+   .main{
+     width:70%; 
+     height:73%;
+     left:14%;
+     border-style: outset;
+     position: absolute;
+     bottom: 90%;
+     top: 13%;
+   }
  
-    #h1{
-      position:absolute; 
-       height: 48px;
-       left: 43%;
-       font-size: 30px;
-    }
-    #img1{
-      height: 48px;
-       left: 46%;
-    }
+   #botao{
+     left: 72%; 
+     top: 2%;
+     width: 20%;
+     font-size: 100%;
+     position: absolute;
+   }
+
+   #h1{
+     position:absolute; 
+     height: 10%;
+     left: 43%;
     
-    #Senha{
-      position: absolute; 
-      left: 35%;
-      font-size: 32px;
-    }
-      
-    #crm{
-      position: absolute; 
-      left: 31%; 
-      top: 170px;
-    }
-    #CRMT{
-      position: absolute; 
-      left: 35%; 
-      top: 220px;
-    }
-    #img2{
-      left: 301; 
-      top: 220px;
-    }
-    #img3{
-      left: 200px; 
-      top: 290px;
-    }
-    #SenhaP{
-      left: 205px; 
-      top: 245px; 
-    }
-    #h2{
-      left: 35%;
-      top: 67%;
-      position: absolute;   
-      font-size: 18px;
-      text-decoration: none;
-    }
-    #h3{
-      left: 180px;
-      top: 75%;
-      position: absolute;  
-      text-decoration: none;  
-      cursor: pointer; 
-    } 
-    #a{
-      text-decoration: none;
+     font-size: 200%;
+   }
+   #img1{
+     height: 48px;
+      left: 46%;
+      top: 20%;
+   }
+   #Senha{
+     position: absolute; 
+     left: 36%;
+     width: 35%;
+     top: 56.5%;
+   }
      
-    }
-    #Entrar{
-      left: 280px;
-      top: 58%;
-    }
-  }
+   #crm{
+     position: absolute; 
+     left: 31%; 
+     top: 33%;
+   }
+   #CRMT{
+     position: absolute; 
+     left: 36%; 
+     top: 42.9%;
+   }
+   #img2{
+     left: 31%; 
+     top: 42.9%;
+   }
+   #img3{
+     left: 31%; 
+     top: 56.5%;
+   }
+   #SenhaP{
+     left: 31%; 
+     top: 48%; 
+   }
+   #h2{
+     left: 32%;
+     top: 80%;
+     position: absolute;   
+     font-size: 150%;
+     text-decoration: none;
+   }
+   #h3{
+     left: 25%;
+     top: 85%;
+     position: absolute;  
+     text-decoration: none;  
+     cursor: pointer; 
+   } 
+   #a{
+     text-decoration: none;
+    
+   }
+   #Entrar{
+     left: 38%;
+     width: 25%;
+     height: 8%;
+     top: 65%;
+     font-size: 150%;
+   }
+ }
   
-  @media screen and ( max-width: 600px)
-      {
-  .header{
-      width: 210%;
-     }
-     .main{
-       width:90%; 
-       height:80%;
-       /* right:10%; */
-       left:15%;
-       bottom: 90%;
-       top: 15%;
-       border-style: outset;
-       position: absolute;
-     }
-     
-      #h1_botao{  
-       width: 160px;
-       /* height: 1140px; */
-       left: 545px;
-       /* right: 90%; */
-       top: 10px;
-       font-size: 25px;
-       position: absolute; 
-           
-     } 
-     #botao{
-      width: 180px;
-       left: 530px;
-       top: 10px;
-       height: 60px;
-       font-size: 10%;
-       position: absolute;
-       bottom: 638px;
-       
-     }
-   
-     #h1_ti {
-       position:absolute; 
-        height: 41px;
-        left: 30%;
-        font-size: 30px;
-     }
-     
-     #h2_me{
-      height: 80px;
-       left: 20%;
-       top: 25px;
-       position: absolute; 
-       font-size: 30px;
-     }
-     #h2_pa{
-       position: absolute; 
-       height: 25px;
-       left: 63%;
-       top: 25px;
-       font-size: 30px;
-       
-     }
-     #bu_me{
-       position: absolute; 
-       height: 413px;
-       left: 8%;
-     }
-     #bu_pa{
-       position: absolute; 
-       height: 413px;
-       left: 55%;
-     }
-     #entra1{
-       position: absolute; 
-       height: 40px;
-       left: 17%; 
-       top: 80%;
-     }
-     #entra2{
-       position: absolute; 
-       height: 40px;
-       left: 65%; 
-       top: 80%;
-     }
-     #h2{
-       left: 24%;
-       top: 85%;
-       position: absolute;   
-       font-size: 23px;
-     }
-     #h3{
-       left: 40%;
-       top: 89%;
-       position: absolute;  
-     }
-  }
-  
+ 
   @media screen and (max-width:400px)
   {
     .header{
       width: auto;
      }
      .main{
-       width:80%; 
-       height:60%;  
-       left: 40px;
-       bottom: 90%;
-       top: 13%;
+       width:70%; 
+       height:73%;
+       left:14%;
        border-style: outset;
        position: absolute;
-     }
-     
-      #h1_botao{  
-       width: 100px;
-       height: 8px;
-       left: 280px;
-       top: 2%;
-       font-size: 16px;
-       position: absolute; 
-          
-     } 
-     #botao{
-      width: 130px;
-      top: 19px;
-       /* left:30px; */
-       font-size: 10%;
-       position: absolute;
-       bottom: 640px;
-       height: 5%;
-       left: 65%; 
+       bottom: 90%;
+       top: 13%;
      }
    
-     #h1_ti {
+     #botao{
+       left: 65%; 
+       top: 2%;
+       width: 30%;
+       font-size: 100%;
+       position: absolute;
+     }
+  
+     #h1{
        position:absolute; 
-        height: 38px;
-        left: 15%;
-        font-size: 26px;
+       height: 10%;
+       left: 35%;     
+       font-size: 200%;
      }
-     
-     #h2_me{
-       position: absolute; 
-       height: 13px;
-       left: 17%;
-       top: 23px;
-       font-size: 20px;
+     #img1{
+       height: 48px;
+        left: 44%;
+        top: 20%;
      }
-     #h2_pa{
+     #Senha{
        position: absolute; 
-       left: 61%;
-       top: 23px;
-       font-size: 20px;
+       left: 40%;
+       width: 35%;
+       top: 56.5%;
+     }
        
-     }
-     #bu_me{
+     #crm{
        position: absolute; 
-       height: 300px;
-       /* left: 8%; */
+       left: 31%; 
+       top: 33%;
      }
-     #bu_pa{
+     #CRMT{
        position: absolute; 
-       height: 300px;
-       /* left: 55%; */
+       left: 40%; 
+       top: 42.9%;
      }
-     #entra1{
-       position: absolute; 
-       height: 30px;
-       left: 13%; 
-       top: 380px;
-       font-size: 22px;
+     #img2{
+       left: 31%; 
+       top: 42.9%;
      }
-     #entra2{
-       position: absolute; 
-       height: 30px;
-       left: 58%; 
-       top: 380px;
-       font-size: 22px;
+     #img3{
+       left: 31%; 
+       top: 56.5%;
+     }
+     #SenhaP{
+       left: 31%; 
+       top: 48%; 
      }
      #h2{
-       left: 16%;
-       top: 86%;
+       left: 20%;
+       top: 80%;
        position: absolute;   
-       font-size: 18px;
+       font-size: 120%;
+       text-decoration: none;
      }
      #h3{
-       left: 40%;
-       top: 92%;
-       position: absolute; 
-       font-size: 15px; 
+       left: 25%;
+       top: 85%;
+       position: absolute;  
+       text-decoration: none;  
+       font-size: 110%;
+       cursor: pointer; 
      } 
-  }
+     #a{
+       text-decoration: none;
+      
+     }
+     #Entrar{
+       left: 38%;
+       width: 30%;
+       height: 8%;
+       top: 65%;
+       font-size: 150%;
+     }
+   }
+    
