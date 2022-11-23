@@ -1,0 +1,378 @@
+.header{
+  background-color: rgb(0, 195, 255);
+  height: 50%;
+}
+#img_main{  
+  height: 100%;
+}
+#nome{
+    display: flex;
+    display: inline;
+    position: absolute; 
+    color: rgb(255, 255, 255);
+}
+#botao{
+    display:flex ;
+    display: inline;
+    position: absolute;
+    left: 85%;
+    bottom: 92%;
+    width: 14%; height: 6%;
+    font-weight: bold;
+    font-size: 150%;
+}
+.main{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; height: 70%;
+  }
+  #h1{
+    text-align: center;
+  }
+  #img1{
+    position: absolute;
+    left: 45%;
+  }
+  #h2{
+    text-align: center;
+    font-size: 120%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+  }
+  #h3{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+  }
+  #text{
+    position: absolute;
+    top: 58%;
+    left: 41%;
+    width: 32%; height: 5.2%;
+    border: black;
+    border-style: outset;
+  }
+  #img2{
+    position: absolute;
+    top: 58%;
+    left: 34.8%;
+    width: 5.5%;
+    border: black;
+    border-style: outset;
+  }
+  #entrar{
+    position: absolute;
+    top: 67%;
+    left: 42%;
+    width: 25%; height: 9%;
+    font-weight: bold;
+  }
+  #Login{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 150%;
+    text-decoration: none;
+  }
+  #Cadastre-se{
+    position: absolute;
+    top: 93%;
+    right: 3%;
+   font-size: 120%;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 950px){ /*enquanto a largura da tela for + q 950 px adc esses elementos*/
+    
+    .header{ 
+      width:101%;
+  }
+  .main{
+    width:80%; 
+    height:80%;    
+    left:10%;
+    border-style: outset;
+    position: absolute;
+    bottom: 90%;
+    top: 17%;
+  }
+  #botao{
+    top: 2%; 
+   left: 80%;
+   height: 6%;
+   width: 19%;
+  }
+  #h1_botao{
+    height: 40%;
+    left: 10%;
+  }
+  #h1{
+    top: 1%;
+    left: 38%;
+    font-size: 280%;
+  }
+  #h2{
+    top: 40%;
+    left: 0%;
+    font-size: 180%;
+  }
+  #h3{
+    top: 55%;
+    left: 33.2%;
+    font-size: 130%;
+  }
+  #img1{
+   top: 25%; 
+   left: 47%;
+   height: 13%;
+ }
+ #img2{
+  top: 63%; 
+  left: 33%;
+  width: 4.7%;
+}
+ #text{
+    top: 63%; 
+    left: 38%;
+  }
+  #entrar{
+    top: 71%; 
+    left: 39%;
+  }
+ #Login{
+   top: 82%; 
+   left: 48%;
+   height: 2%;
+   font-size: 130%;
+   text-decoration: none;
+ }
+ #Cadastre-se{
+  top: 90%; 
+  left: 45%;
+  text-decoration: none;
+}
+ 
+}
+@media screen and ( max-width: 650px)
+  {
+.header{ 
+  width:100%;
+}
+.main{
+width:80%; 
+height:80%;    
+left:10%;
+border-style: outset;
+position: absolute;
+bottom: 90%;
+top: 17%;
+}
+#botao{
+top: 2%; 
+left: 72%;
+height: 6%;
+width: 25%;
+font-size: 100%;
+}
+#h1_botao{
+height: 50%;
+left: 10%;
+}
+#h1{
+top: 1%;
+left: 38%;
+font-size: 200%;
+}
+#h2{
+top: 38%;
+left: 0%;
+font-size: 180%;
+}
+#h3{
+top: 55%;
+left: 32%;
+font-size: 130%;
+}
+#img1{
+top: 20%; 
+left: 42%;
+height: 13%;
+}
+#img2{
+top: 63%; 
+left: 31.4%;
+width: 6%;
+}
+#text{
+top: 63%; 
+left: 38%;
+}
+#entrar{
+top: 71%; 
+left: 40%;
+}
+#Login{
+top: 82%; 
+left: 48%;
+height: 2%;
+font-size: 130%;
+text-decoration: none;
+}
+#Cadastre-se{
+top: 90%; 
+left: 70%;
+text-decoration: none;
+}
+
+ @media screen and (max-width:500px)
+ {
+  .header{ 
+    width:101%;
+  }
+  .main{
+  width:80%; 
+  height:80%;    
+  left:10%;
+  border-style: outset;
+  position: absolute;
+  bottom: 90%;
+  top: 17%;
+  }
+  #botao{
+  top: 2%; 
+  left: 68%;
+  height: 6%;
+  width: 30%;
+  }
+  #h1_botao{
+  height: 50%;
+  left: 15%;
+  font-size: 120%;
+  }
+  #h1{
+  top: 1%;
+  left: 38%;
+  font-size: 180%;
+  }
+  #h2{
+  top: 31%;
+  left: 2%;
+  font-size: 170%;
+  }
+  #h3{
+  top: 55%;
+  left: 23%;
+  font-size: 130%;
+  }
+  #img1{
+  top: 20%; 
+  left: 42%;
+  height: 13%;
+  }
+  #img2{
+  top: 63%; 
+  left: 23%;
+  width: 7.9%;
+  }
+  #text{
+  top: 63%; 
+  left: 32%;
+  width: 40%;
+  }
+  #entrar{
+  top: 71%; 
+  left: 35%;
+  }
+  #Login{
+  top: 82%; 
+  left: 41%;
+  height: 2%;
+  font-size: 130%;
+  text-decoration: none;
+  }
+  #Cadastre-se{
+  top: 90%; 
+  left: 65%;
+  text-decoration: none;
+  }
+}    
+  @media screen and (max-width:400px)
+  {
+    .header{ 
+      width:101%;
+    }
+    .main{
+    width:80%; 
+    height:80%;    
+    left:10%;
+    border-style: outset;
+    position: absolute;
+    bottom: 90%;
+    top: 17%;
+    }
+    #botao{
+    top: 2%; 
+    left: 60%;
+    height: 6%;
+    width: 37%;
+    }
+    #h1_botao{
+    height: 50%;
+    left: 15%;
+    font-size: 120%;
+    }
+    #h1{
+    top: 1%;
+    left: 38%;
+    font-size: 150%;
+    }
+    #h2{
+    top: 31%;
+    font-size: 135%;
+    }
+    #h3{
+    top: 51%;
+    left: 17%;
+    font-size: 130%;
+    }
+    #img1{
+    top: 20%; 
+    left: 38%;
+    height: 13%;
+    }
+    #img2{
+    top: 60%; 
+    left: 16.5%;
+    width: 9.5%;
+    }
+    #text{
+    top: 60%; 
+    left: 27%;
+    width: 45%;
+    }
+    #entrar{
+    top: 71%; 
+    left: 29%;
+    width: 35%;
+    }
+    #Login{
+    top: 82%; 
+    left: 40%;
+    height: 2%;
+    font-size: 120%;
+    text-decoration: none;
+    }
+    #Cadastre-se{
+    top: 90%; 
+    left: 30%;
+    text-decoration: none;
+    font-size: 140%;
+    }
+  }
+}
+  
