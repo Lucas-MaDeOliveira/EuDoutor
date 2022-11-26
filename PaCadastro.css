@@ -1,0 +1,498 @@
+.header{
+  background-color: rgb(0, 195, 255);
+  height: 50%;
+}
+#img_main{  
+  height: 100%;
+}
+#nome{
+    display: flex;
+    display: inline;
+    position: absolute; 
+    color: rgb(255, 255, 255);
+}
+#botao{
+    display:flex ;
+    display: inline;
+    position: absolute;
+    left: 85%;
+    bottom: 92%;
+    width: 14%; height: 6%;
+    font-weight: bold;
+    font-size: 150%;
+}
+  .main{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 13%;
+    width: 40%; height: 80%
+  }
+  #h1{
+    text-align: center;
+    font-size: 250%;
+    position: absolute;
+    left: 35%;
+    bottom: 87%;
+  }
+  #bu1{
+    border-radius: 50%; 
+    width: 6%; 
+    height: 5%;
+    position: absolute;
+    top: 10%;
+    left: 72%;
+} 
+#bu2{
+    border-radius: 50%; width: 6%; height: 5%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+#PA{
+    font-weight: bold;
+    font-size: 10%;
+    position: absolute;
+    left: 12%;
+    top:6% ;
+    font-size: 150%;
+}
+#ME{
+    font-weight: bold;
+    font-size: 150%;
+    position: absolute;
+    left: 80%;
+    top: 6%;
+    font-size: 150%;
+}
+#nomeCA{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 5%;
+    top: 19%;
+    font-size: 125%;
+}
+#nomet{
+    position: absolute;
+    left: 5%;
+    top: 26%;
+    height: 3%;
+}
+#cmr1{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-size: 125%;
+}
+#crmte{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    height: 20px;
+}
+#email{
+    position: absolute;
+    left: 5%;
+    top: 200px;
+    height: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#emailt{
+    position: absolute;
+    left: 5%;
+    top: 240px;
+    height: 20px;
+}
+#data{
+    position: absolute;
+    left: 5%;
+    top: 253px;
+    height: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#datat{
+    position: absolute;
+    left: 5%;
+    top: 295px;
+    width: 170px; height: 20px;
+}
+#cell{
+    position: absolute;
+    left: 5%;
+    top: 300px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#cellt{
+    position: absolute;
+    left: 5%;
+    top: 340px;
+    width: 170px; height: 20px;
+}
+#senhap{
+    position: absolute;
+    left: 5%;
+    top: 350px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#senhat{
+    position: absolute;
+    left: 5%;
+    top: 390px;
+    width: 170px; height: 20px;
+}
+#confisep{
+    position: absolute;
+    left: 5%;
+    top: 405px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#confiset{
+    position: absolute;
+    left: 5%;
+    top: 445px;
+    width: 170px; height: 20px;
+}
+#criar{
+    position: absolute;
+    left: 35%;
+    top: 500px;
+    width: 170px; height: 50px;
+    font-size: 25px;
+}
+@media only screen and (max-width: 950px){ /*enquanto a largura da tela for + q 950 px adc esses elementos*/
+    
+    .header{ 
+      width:100%;
+  }
+  .main{
+    width:80%; 
+    height:100%;    
+    left:10%;
+    border-style: outset;
+    position: absolute;
+    bottom: 90%;
+    top: 17%;
+  }
+  #botao{
+    top: 2%; 
+   left: 75%;
+  }
+  #h1{
+    top: 1%;
+    left: 38%;
+    font-size: 280%;
+   
+  }
+  #bu1{
+   top: 15%; 
+   left: 63%;
+   height: 6%;
+ }
+ #ME{
+    top: 11%; 
+    left: 70%;
+  }
+  #PA{
+    top: 11%; 
+    left: 13%;
+  }
+ #bu2{
+   top: 15%; 
+   left: 4%;
+   height: 6%;
+ }
+ 
+#nomeCA{
+    left: 5%;
+    top: 24%;
+}
+ #nomet{
+    left:5%;
+    top: 30%;
+    height: 3%;
+}
+ }
+#cmr1{
+    left: 5%;
+    top: 30.9%;
+}
+#crmte{
+    left: 5%;
+    top: 37%;
+}
+ #email{
+    left: 5%;
+    top: 38%;
+ }
+#emailt{
+    left: 5%;
+    top: 44.4%;
+}
+#data{
+    left: 5%;
+    top: 45%;
+}
+ #datat{
+    left: 5%;
+    top: 51.0%;
+ }
+#cell{
+    left: 5%;
+    top: 51.3%;
+}
+ #cellt{
+    left: 5%;
+    top: 57.3%;
+ }
+ #senhap{
+    left: 5%;
+    top: 58%;
+ }
+ #senhat{
+    left: 5%;
+    top: 64%;
+ }
+ #confisep{
+    left: 5%;
+    top: 66%;
+ }
+ #confiset{
+    left: 5%;
+    top: 72%;
+}
+  #criar{
+   top: 80%;
+   left: 40%;
+ }
+  
+ 
+@media screen and ( max-width: 600px)
+  {  
+.header{ 
+    width:100%;
+}
+.main{
+  width:80%; 
+  height:100%;    
+  left:10%;
+  border-style: outset;
+  position: absolute;
+  bottom: 90%;
+  top: 17%;
+}
+#botao{
+  top: 2%; 
+ left: 63%;
+}
+#h1{
+  top: 1%;
+  left: 30%;
+  font-size: 280%;
+ 
+}
+#bu1{
+ top: 15%; 
+ left: 63%;
+ height: 6%;
+}
+#ME{
+  top: 11%; 
+  left: 70%;
+}
+#PA{
+  top: 11%; 
+  left: 13%;
+}
+#bu2{
+ top: 15%; 
+ left: 4%;
+ height: 6%;
+}
+
+#nomeCA{
+  left: 5%;
+  top: 24%;
+}
+#nomet{
+  left:5%;
+  top: 30%;
+  height: 3%;
+}
+
+#cmr1{
+  left: 5%;
+  top: 30.9%;
+}
+#crmte{
+  left: 5%;
+  top: 37%;
+}
+#email{
+  left: 5%;
+  top: 38%;
+}
+#emailt{
+  left: 5%;
+  top: 44.4%;
+}
+#data{
+  left: 5%;
+  top: 45%;
+}
+#datat{
+  left: 5%;
+  top: 51.0%;
+}
+#cell{
+  left: 5%;
+  top: 51.3%;
+}
+#cellt{
+  left: 5%;
+  top: 57.3%;
+}
+#senhap{
+  left: 5%;
+  top: 58%;
+}
+#senhat{
+  left: 5%;
+  top: 64%;
+}
+#confisep{
+  left: 5%;
+  top: 66%;
+}
+#confiset{
+  left: 5%;
+  top: 72%;
+}
+#criar{
+ top: 80%;
+ left: 40%;
+}
+
+
+ @media screen and (max-width:500px)
+ {  
+    .header{ 
+        width:100%;
+    }
+    .main{
+      width:80%; 
+      height:100%;    
+      left:10%;
+      border-style: outset;
+      position: absolute;
+      bottom: 90%;
+      top: 17%;
+    }
+    #botao{
+      top: 2%; 
+     left: 63%;
+    }
+    #h1{
+      top: 1%;
+      left: 30%;
+      font-size: 280%;
+     
+    }
+    #bu1{
+     top: 15%; 
+     left: 63%;
+     height: 6%;
+    }
+    #ME{
+      top: 11%; 
+      left: 70%;
+    }
+    #PA{
+      top: 11%; 
+      left: 13%;
+    }
+    #bu2{
+     top: 15%; 
+     left: 4%;
+     height: 6%;
+    }
+    
+    #nomeCA{
+      left: 5%;
+      top: 24%;
+    }
+    #nomet{
+      left:5%;
+      top: 30%;
+      height: 3%;
+    }
+    
+    #cmr1{
+      left: 5%;
+      top: 30.9%;
+    }
+    #crmte{
+      left: 5%;
+      top: 37%;
+    }
+    #email{
+      left: 5%;
+      top: 38%;
+    }
+    #emailt{
+      left: 5%;
+      top: 44.4%;
+    }
+    #data{
+      left: 5%;
+      top: 45%;
+    }
+    #datat{
+      left: 5%;
+      top: 51.0%;
+    }
+    #cell{
+      left: 5%;
+      top: 51.3%;
+    }
+    #cellt{
+      left: 5%;
+      top: 57.3%;
+    }
+    #senhap{
+      left: 5%;
+      top: 58%;
+    }
+    #senhat{
+      left: 5%;
+      top: 64%;
+    }
+    #confisep{
+      left: 5%;
+      top: 66%;
+    }
+    #confiset{
+      left: 5%;
+      top: 72%;
+    }
+    #criar{
+     top: 80%;
+     left: 40%;
+    }
+ }    
+}

@@ -1,0 +1,387 @@
+html
+{
+    scroll-behavior: smooth;
+}
+.navbar
+{
+    background-color: #C7E7FF;
+}
+
+.navbar-expand-lg
+{
+    background-color: #C7E7FF;
+}
+.conteiner{
+    display: grid;/*aqui começa as config do grid*/
+    grid-template: 20vh 70vh 10vh/1fr 1fr 1fr;
+    grid-template-areas:
+                        "a a a"
+                        "s s s"
+                        "f f f";
+    gap: 1vh;
+}
+
+.section{
+    background-color: rgb(255, 255, 255);
+    grid-area: s;
+}
+.footer{
+    background-color: rgb(105, 105, 105);
+    grid-area: f;
+}
+.section{
+    position: relative;
+    left: 15%;
+    bottom: 15%;
+    width: 80%;
+    height: 60%;
+}
+#Fa{
+    width: 20%;
+    height: 10%;
+    font-size: 250%;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 25%; 
+}
+#Ge{
+    width: 20%;
+    height: 10%;
+    font-size: 250%;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 38%;
+}
+#An{
+    width: 20%;
+    height: 10%;
+    font-size: 250%;
+    font-weight: bold;
+    position:absolute;
+    left: 10%;
+    top: 50%;
+}
+#Re{
+    width: 20%;
+    height: 10%;
+    font-size: 250%;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 62%;
+}
+.footer{
+  background-color: grey;
+  position: absolute;
+  top: 116%;
+  width: 100%;
+  height: 10%;
+}
+#Facebook{
+  text-decoration:none;
+  position: absolute;
+  right: 9%;
+  
+}
+#Instagram{
+  text-decoration: none;
+  position: absolute;
+  right: 9%;
+  top: 35%;
+}
+#Twitter{
+  text-decoration: none;
+  position: absolute; 
+  right: 9%;
+  top: 65%;
+}
+#Face{
+  width: 1.3%;
+  position: absolute;
+  right: 27.5%;
+  top: 5%;
+  right: 15%;
+}
+#Insta{
+  width: 1.3%;
+  right: 20.2%;
+  position: absolute;
+  top: 35%;
+  right: 15%;
+}
+#tt{
+  right: 12.4%;
+  top: 65%;
+  position: absolute;
+  right: 15%;
+}
+#Telefone{
+  left: 2%;
+  position: absolute;
+  text-decoration: none;
+  top: 35%;
+}
+@media only screen and (max-width:950px) {
+    .navbar /*header*/
+    {
+        background-color: #C7E7FF;
+      width: 102%;
+    }
+
+    .conteiner{
+        grid-template: 15vh 15vh 15vh 15vh 15vh / 1fr 3fr 3fr;
+        grid-template-areas:
+          ""
+          "s s s"
+          "f f f";
+        width: 100%;
+        margin: 10%;
+        display: grid;
+    }
+    .section{
+        background-color: rgb(255, 255, 255);
+        grid-area: s;
+    }
+    .footer{
+        background-color: rgb(105, 105, 105);
+        grid-area: f;
+        top: 112%;
+    }
+    #Fa{
+      left: 20%;
+      top: 20%;
+      width: 60%;
+      position:relative;
+      
+    }
+    #Ge{
+      left: 20%;
+      top: 35%;
+      width: 60%;
+      display: block;
+      position: relative;
+    }
+    #An{
+      left: 20%;
+      width: 60%;
+      display: block;
+      position: relative;
+    }
+    #Re{
+      left: 20%;
+      width: 60%;
+      position: relative;
+    }
+    #Facebook{
+      top: 2%;
+      left: 75.5%;
+    }
+    #iconee{
+    left:66%;
+    position: absolute;
+    }
+    #Instagram{
+      top: 32%;
+      left: 75%;
+    }
+    #iconeinstagram{
+        left: 66%;
+        top: 35%;
+        position: absolute;
+    }
+    #Twitter{
+      top: 65%;
+      left: 75%;
+    }
+    #tt{
+        top: 65%;
+        left: 66%;
+        position: absolute;
+    }
+    #iconefelefone{
+        top: 20%;
+        left: 1%;
+        position: absolute;
+    }
+  #Telefone{
+    top: 25%;
+    left: 10%;
+  } 
+}
+    @media only screen and (max-width:600px) {
+        .navbar /*header*/
+        {
+            background-color: #C7E7FF;
+          width: 102%;
+        }
+    
+        .conteiner{
+            grid-template: 15vh 15vh 15vh 15vh 15vh / 1fr 3fr 3fr;
+            grid-template-areas:
+              ""
+              "s s s"
+              "f f f";
+            width: 100%;
+            margin: 10%;
+            display: grid;
+        }
+        .section{
+            background-color: rgb(255, 255, 255);
+            grid-area: s;
+        }
+        .footer{
+            background-color: rgb(105, 105, 105);
+            grid-area: f;
+            top: 112%;
+        }
+        #Fa{
+          left: 20%;
+          top: 20%;
+          width: 60%;
+          position:relative;
+          
+        }
+        #Ge{
+          left: 20%;
+          top: 35%;
+          width: 60%;
+          display: block;
+          position: relative;
+        }
+        #An{
+          left: 20%;
+          width: 60%;
+          display: block;
+          position: relative;
+        }
+        #Re{
+          left: 20%;
+          width: 60%;
+          position: relative;
+        }
+        #Facebook{
+          top: 2%;
+          left: 75.5%;
+        }
+        #iconee{
+        left:66%;
+        position: absolute;
+        }
+        #Instagram{
+          top: 32%;
+          left: 75%;
+        }
+        #iconeinstagram{
+            left: 66%;
+            top: 35%;
+            position: absolute;
+        }
+        #Twitter{
+          top: 65%;
+          left: 75%;
+        }
+        #tt{
+            top: 65%;
+            left: 66%;
+            position: absolute;
+        }
+        #iconefelefone{
+            top: 20%;
+            left: 1%;
+            position: absolute;
+        }
+      #Telefone{
+        top: 25%;
+        left: 10%;
+      } 
+    }
+  
+  @media only screen and (max-width:400px) {
+    .navbar /*header*/
+    {
+        background-color: #C7E7FF;
+      width: 102%;
+    }
+
+    .conteiner{
+        grid-template: 15vh 15vh 15vh 15vh 15vh / 1fr 3fr 3fr;
+        grid-template-areas:
+          ""
+          "s s s"
+          "f f f";
+        width: 100%;
+        margin: 10%;
+        display: grid;
+    }
+    .section{
+        background-color: rgb(255, 255, 255);
+        grid-area: s;
+    }
+    .footer{
+        background-color: rgb(105, 105, 105);
+        grid-area: f;
+        top: 112%;
+    }
+    #Fa{
+      left: 20%;
+      top: 20%;
+      width: 60%;
+      position:relative;
+      
+    }
+    #Ge{
+      left: 20%;
+      top: 35%;
+      width: 60%;
+      /* display: block; */
+      position: relative;
+    }
+    #An{
+      left: 20%;
+      width: 60%;
+      display: block;
+      position: relative;
+    }
+    #Re{
+      left: 20%;
+      width: 60%;
+      position: relative;
+    }
+    #Facebook{
+      top: 2%;
+      left: 75.5%;
+    }
+    #iconee{
+    left:66%;
+    position: absolute;
+    }
+    #Instagram{
+      top: 32%;
+      left: 75%;
+    }
+    #iconeinstagram{
+        left: 66%;
+        top: 35%;
+        position: absolute;
+    }
+    #Twitter{
+      top: 65%;
+      left: 75%;
+    }
+    #tt{
+        top: 65%;
+        left: 66%;
+        position: absolute;
+    }
+    #iconefelefone{
+        top: 20%;
+        left: 1%;
+        position: absolute;
+    }
+  #Telefone{
+    top: 25%;
+    left: 10%;
+  } 
+}
