@@ -1,0 +1,350 @@
+.header{
+  background-color: rgb(0, 195, 255);
+  height: 50%
+}
+#img_main{  
+  height: 100%
+}
+#nome{
+    display: flex;
+    display: inline;
+    position: absolute; 
+    color: rgb(255, 255, 255);
+}
+#botao{
+    display:flex ;
+    display: inline;
+    position: absolute;
+    left: 85%;
+    bottom: 92%;
+    width: 14%; 
+    height: 6%;
+    font-weight: bold;
+    font-size: 150%;
+}
+  .main{
+    border: rgb(11, 6, 11);
+    border-style: outset;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 90%;
+    top: 20%;
+    width: 40%; 
+    height: 70%
+  }
+  #h1{
+    text-align: center;
+  }
+  #img1{
+    position: absolute;
+    left: 42%;
+    top: 17%;
+  }
+  #crm{
+    font-weight: bold;
+    position: absolute;
+    left: 30%;
+    top: 31%;
+    font-size: 100%;
+  }
+  #CRMT{
+     position: absolute;
+     left: 34.5%;
+     top: 38%;
+     width: 36%; 
+     height: 4.2%;
+     border: black;
+     border-style:outset;
+     
+  }
+  #img2{
+    position: absolute;
+    top: 38%;
+    left: 29.3%;
+    border: black;
+    border-style:outset;  
+    width: 4.6%;
+  }
+  #SenhaP{
+    font-weight: bold;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    font-size: 19px;
+  }
+  #Senha{
+     position: absolute;
+     left: 34.5%;
+     top: 48%;
+     width: 36%; 
+     height: 4.2%;
+     border: black;
+     border-style:outset;
+  }
+  #img3{
+    position: absolute;
+    left: 29.3%;
+    top: 48%;
+    border: black;
+    border-style:outset;
+    height: 26%;
+    height: 4.5%;
+    
+  }
+  #Entrar{
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    width: 20%; 
+    height: 8%;
+    font-size: 200%;
+    cursor: pointer; 
+  }
+  #h2{
+    position: absolute;
+    left: 35%;
+    top:75%;
+    font-size: 125%;
+    cursor: pointer; 
+    text-decoration: none;
+  }
+  #h3{
+    position: absolute;
+    left: 27%;
+    top:80%;
+    font-size: 120%;
+    cursor: pointer; 
+  }
+  #a{
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 950px){ /*enquanto a largura da tela for + q 950 px adc esses elementos*/
+    
+      .header{ 
+        width:148%;
+    }
+    .main{
+      width:110%; 
+      height:100%;    
+      left:19%;
+      border-style: outset;
+      position: absolute;
+      bottom: 90%;
+      top: 20%;
+    }
+    #botao{
+      width: 20%;
+      top: 2%;
+      left: 120%;
+      position: absolute;
+    }
+    #Senha{
+     top: 50%; 
+     left: 42%;
+   }
+   #CRMT{
+     top: 39%; 
+     left: 42%;
+   }
+   #img2{
+     top: 39%; 
+     left: 38.9%;
+     width: 3%;
+   }
+   #img3{
+     top: 50%; 
+     left: 38.5%;
+   }
+    #h2{
+      top: 72%; 
+      left: 45%;
+      font-size: 160%; 
+    }
+    #h1{
+      top: 1%;
+      left: 45%;
+      font-size: 220%;
+    }
+    #h3{
+     top: 75%;
+     left: 35%;
+     font-size: 180%;
+   }
+    #img1{
+      left: 45%;
+      top: 19%;
+    }
+   #crm{
+     left: 39%;
+     top: 32%;
+     font-size: 140%;
+   }
+  
+    #SenhaP{
+     left: 38.5%;
+     top: 42%;
+     font-size: 160%;
+    }
+  
+    #Entrar{
+     top: 60%;
+     left: 46%;
+     font-size: 150%;
+   }
+  
+  @media screen and ( max-width: 650px)
+  {
+      .header{ 
+        width:148%;
+    }
+    .main{
+      width:110%; 
+      height:100%;    
+      left:19%;
+      border-style: outset;
+      position: absolute;
+      bottom: 90%;
+      top: 20%;
+    }
+    #botao{
+      width: 200px;
+      top: 10px;
+      left: 109%;
+      position: absolute;
+      bottom: 638px;
+    }
+    #Senha{
+     top: 50%; 
+     left: 36%;
+   }
+   #CRMT{
+     top: 39%; 
+     left: 37%;
+   }
+   #img2{
+     top: 39%; 
+     left: 31.9%;
+     width: 4.5%;
+   }
+   #img3{
+     top: 50%; 
+     left: 31%;
+   }
+    #h2{
+      top: 71%; 
+      left: 32%;
+      font-size: 180%; 
+    }
+    #h1{
+      top: 1%;
+      left: 40%;
+      font-size: 220%;
+    }
+    #h3{
+     top: 75%;
+     left: 22%;
+     font-size: 180%;
+   }
+    #img1{
+      left: 42%;
+      top: 19%;
+    }
+   #crm{
+     left: 32%;
+     top: 32%;
+     font-size: 140%;
+   }
+  
+    #SenhaP{
+     left: 31%;
+     top: 43%;
+     font-size: 140%;
+    }
+  
+    #Entrar{
+     top: 60%;
+     left: 42%;
+     font-size: 180%;
+   }
+  
+    }
+ 
+ @media screen and (max-width:400px)
+  {
+    header{
+      width:auto;
+     }
+     .main{
+       width:110%; 
+       height:100%;    
+       left:19%;
+       border-style: outset;
+       position: absolute;
+       bottom: 90%;
+       top: 20%;
+     }
+     #botao{
+       width: 45%;
+       top: 2%;
+       left: 100%;
+       position: absolute;
+     }
+     #Senha{
+      top: 50%; 
+      left: 38%;
+    }
+    #CRMT{
+      top: 39%; 
+      left: 38%;
+    }
+    #img2{
+      top: 39%; 
+      left: 30%;
+      width: 7.2%;
+    }
+    #img3{
+      top: 50%; 
+      left: 30%;
+    }
+     #h2{
+       top: 70%; 
+       left: 25%;
+       font-size: 165%; 
+     }
+     #h1{
+       top: 1%;
+       left: 40%;
+       font-size: 220%;
+     }
+     #h3{
+      top: 75%;
+      left: 14%;
+      font-size: 164%;
+    }
+     #img1{
+       left: 42%;
+       top: 19%;
+     }
+    #crm{
+      left: 30%;
+      top: 32%;
+      font-size: 140%;
+    }
+
+     #SenhaP{
+      left: 30%;
+      top: 42%;
+      font-size: 160%;
+     }
+     #Entrar{
+      top: 60%;
+      left: 35%;
+      width: 30%;
+      font-size: 110%;
+    }
+     }
+   }
+  
